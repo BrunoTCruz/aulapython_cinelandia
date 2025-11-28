@@ -1,0 +1,11 @@
+def ler_inteiro():
+    try:
+        numero = int(input("Digite um número inteiro: "))
+    except ValueError:
+        print("Erro: Você deve digitar apenas números inteiros !")
+    else:
+        print("Número digitdo com sucesso: {numero}")
+    finally:
+        print("Fim do programa de conversão")
+
+ler_inteiro()
